@@ -1,4 +1,4 @@
-package com.nikhiltripathy.leetcode;
+package com.nikhiltripathy.strings;
 
 import java.util.ArrayList;
 import java.util.List;

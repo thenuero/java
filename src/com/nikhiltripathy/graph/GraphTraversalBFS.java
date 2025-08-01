@@ -1,4 +1,4 @@
-package com.nikhiltripathy.leetcode.graph;
+package com.nikhiltripathy.graph;
 
 import java.util.*;
 
