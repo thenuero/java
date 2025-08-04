@@ -7,7 +7,6 @@ public class GraphTraversalBFS {
     private static List<Integer> bfs(List<List<Integer>> adjList, int startNode) {
         Queue<Integer> queue = new LinkedList<>(); // store elements for bfs
         List<Integer> answer = new ArrayList<>(); // stores answer
-        Set<Integer> visited = new HashSet<>();
         queue.add(startNode);
 
         while(!queue.isEmpty()) {
