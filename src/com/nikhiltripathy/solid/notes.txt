@@ -1,0 +1,4 @@
+
+Solid principles:
+
+-- Single Responsibility : Each class should only one reason to change.
