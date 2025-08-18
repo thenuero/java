@@ -1,7 +1,5 @@
 package com.nikhiltripathy.test;
 
-import java.util.stream.DoubleStream;
-
 public class Skyhigh {
 
     public static void main (String[] args) {
