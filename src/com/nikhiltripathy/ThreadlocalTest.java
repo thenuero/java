@@ -1,6 +1,5 @@
 package com.nikhiltripathy;
 
-import javax.swing.plaf.TableHeaderUI;
 
 public class ThreadlocalTest {
 

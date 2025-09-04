@@ -15,6 +15,9 @@ public class NQueens {
 
         //Rows occupied
         boolean[] rows = new boolean[n + 1];
+        //Represents number of parallel diagonals. Completely mathematics.
+        //Number of Diagonals, 2n-1. n is the size of chessboard.
+        //Boolean representation of diagonals engaged.
         boolean[] majorDia = new boolean[2 * n + 1];
         boolean[] minorDia = new boolean[2 * n + 1];
 
@@ -46,7 +49,7 @@ public class NQueens {
     }
 
     public static void main(String[] args) {
-        int n = 16;
+        int n = 4;
         Instant start = Instant.now();
         List<List<Integer>> res = nQueenSolve(n);
         Instant end = Instant.now();
