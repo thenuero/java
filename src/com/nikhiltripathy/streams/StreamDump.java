@@ -16,10 +16,10 @@ public class StreamDump {
         //concat.forEach(System.out::println);
 
 
-        Optional<String> max = Arrays.stream("Other simple reductions are max and min that return the largest or smallest value.".split("[\\P{L}]+"))
+        Optional<String> max = Arrays.stream("Other simple reductions are max and min that return the largest or smallest value.".split("\\P{L}+"))
                 .max(String::compareToIgnoreCase);
 
-        Optional<String> r = Arrays.stream("Other simple reductions are max and min that return the largest or smallest value.".split("[\\P{L}]+")).
+        Optional<String> r = Arrays.stream("Other simple reductions are max and min that return the largest or smallest value.".split("\\P{L}+")).
                 filter(s -> s.startsWith("r"))//.findFirst();
                         .findAny();
 
